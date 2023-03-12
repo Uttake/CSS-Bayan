@@ -504,3 +504,34 @@ body {
 .wrapper:hover .bayan__item {
     color: black;
 }
+
+@media screen and (max-width: 1045px) {
+    body {
+        padding: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .header__tittle {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+   .bayan__trigger  {
+    font-size: 1rem;
+    line-height: 1.1rem;
+   }
+}
+
+@media screen and (max-width: 500px) {
+    .header__tittle {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+   .bayan__trigger  {
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+   }
+   .trigger__tittle {
+    padding: 0.6rem;
+   }
+}
